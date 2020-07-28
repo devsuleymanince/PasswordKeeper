@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/passwordbg" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/pattern_lock_view">
+
+    </com.andrognito.patternlockview.PatternLockView>
+
+</RelativeLayout>

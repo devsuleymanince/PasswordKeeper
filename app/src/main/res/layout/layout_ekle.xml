@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/dikdortgen_duzenle"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/edt_ekle_kullanici_adi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Uygulama ismi"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edttext_duzenle"/>
+
+        <EditText
+            android:id="@+id/edt_ekle_adi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Uygulamadaki kullanıcı adı"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edttext_duzenle"/>
+
+        <EditText
+            android:id="@+id/edt_ekle_sifre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint=" Uygulamadaki şifre"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:background="@drawable/edttext_duzenle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_ekle_kaydet"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#5ac18e"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="Kaydet"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_ekle_iptal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#F08080"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="İptal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
